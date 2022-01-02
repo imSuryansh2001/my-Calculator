@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="icon"
+        href="https://iconarchive.com/download/i81246/hamzasaleem/stock-apps-style-2-part-2/Calculator.ico">
+    <!--boostrap css-->
+
+    <!--Bootsrap icon link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <script src="https://kit.fontawesome.com/aed950aa3c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="calculator-heading"><i class="bi bi-calculator"></i>MY CALCULATOR</h1>
+
+    <center>
+        <form>
+            <div class="main-box">
+                <h3 class="my-name">MADE BY SURYANSH</h3>
+
+                <input type="text" class="answer-box" name="answerDisplay">
+
+
+                <input type="button" value="AC" onclick="form.answerDisplay.value='' ">
+                <input type="button" value="+/-" onclick="form.answerDisplay.value+='+/-' ">
+                <input type="button" value="%" onclick="form.answerDisplay.value+='%' ">
+                <input type="button" value="/" onclick="form.answerDisplay.value+='/' ">
+                <br>
+                <input type="button" value="7" onclick="form.answerDisplay.value+='7' ">
+                <input type="button" value="8" onclick="form.answerDisplay.value+='8' ">
+                <input type="button" value="9" onclick="form.answerDisplay.value+='9' ">
+                <input type="button" value="*" onclick="form.answerDisplay.value+='*' ">
+                <br>
+                <input type="button" value="4" onclick="form.answerDisplay.value+='4' ">
+                <input type="button" value="5" onclick="form.answerDisplay.value+='5' ">
+                <input type="button" value="6" onclick="form.answerDisplay.value+='6' ">
+                <input type="button" value="-" onclick="form.answerDisplay.value+='-' ">
+                <br>
+                <input type="button" value="1" onclick="form.answerDisplay.value+='1' ">
+                <input type="button" value="2" onclick="form.answerDisplay.value+='2' ">
+                <input type="button" value="3" onclick="form.answerDisplay.value+='3' ">
+                <input type="button" value="+" onclick="form.answerDisplay.value+='+' ">
+                <br>
+                <input type="button" value="0" onclick="form.answerDisplay.value+='0' " id="zero">
+                <input type="button" value="." onclick="form.answerDisplay.value+='.' ">
+                <input type="button" value="=" onclick="form.answerDisplay.value=eval(form.answerDisplay.value)">
+
+
+            </div>
+        </form>
+    </center>
+
+
+
+</body>
+
+</html>

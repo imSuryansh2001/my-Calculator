@@ -1,0 +1,99 @@
+body{
+    margin:0%;
+    padding:0%;
+    background-color: rgb(255, 246, 163);
+}
+
+.calculator-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.my-name{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing:0.8rem;
+}
+.main-box{
+    width:40rem;
+    height:34rem;
+    border:0.1rem solid black;
+    border-radius: 0.8rem;
+    background-color: black;
+    box-shadow: 10px 10px 15px #000000ba;
+}
+.answer-box{
+    width:39.5rem;
+    height:7rem;
+   border:0.1rem solid black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman';
+    border-radius: 0.8rem;
+    background-color: cyan;
+    color:black;
+}
+.answer-box:hover{
+    background-color: cyan;
+
+}
+input{
+    width:10.2vw;
+    height:10.2vh;
+    border-radius: 1rem;
+    font-size: 2.3rem;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: white;
+   background-color: rgb(145, 73, 155);
+   border-left: 0.4rem solid rgb(0, 255, 255);
+   border-right: 0.4rem solid rgb(0, 255, 255);
+}
+input:hover{
+    background-color: purple;
+}
+#zero{
+    width:19.8rem;
+    border-radius: 1rem;
+}
+
+
+/* medial queries */
+
+@media(max-width:576px){
+    .calculator-heading{
+       font-size: 2rem;
+    }
+    .my-name{
+        font-size: 1rem;
+       letter-spacing: 0.3rem;
+    }
+    .main-box{
+       height:41vh;
+       border:0.1rem solid black;
+       width:80%;
+    }
+    .answer-box{
+     border:0.1rem solid black;
+     width:78vw;
+     height:6.5vh;
+     font-size: 1.5rem;
+    }
+    input{
+        width:19vw;
+        height:5vh;
+        border-left: 0.1rem solid rgb(0, 255, 255);
+        border-right: 0.1rem solid rgb(0, 255, 255);
+        font-size: 1.6rem;
+        border-radius: 0.5rem;
+    }
+    #zero{
+        width:39vw;
+        border-radius: 0.5rem;
+    }
+}
+
+
+
